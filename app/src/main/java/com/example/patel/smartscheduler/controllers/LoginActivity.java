@@ -1,4 +1,4 @@
-package com.example.patel.smartscheduler.view.controller;
+package com.example.patel.smartscheduler;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,8 +28,6 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.patel.smartscheduler.R;
 
 import java.util.ArrayList;
 import java.util.List;
