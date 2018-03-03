@@ -48,10 +48,13 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+        logOut = (Button) findViewById(R.id.logOut);
+
         logOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signOut();
+
             }
         });
 
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
     //sign out method
     public void signOut() {
         auth.signOut();
+        startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
     }
 
 
