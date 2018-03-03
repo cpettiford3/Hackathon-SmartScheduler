@@ -9,7 +9,6 @@ import java.util.Map;
 /**
  * Created by Patel on 3/2/2018.
  */
-package com.example.patel.smartscheduler.model;
 
 public class Schedule {
     private Map<Day, List<String>> sched = new HashMap<>();

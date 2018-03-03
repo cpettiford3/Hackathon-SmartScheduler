@@ -7,7 +7,39 @@ import java.util.List;
 
 public class User {
     private List<User> friends;
-    private int
+    private List<Goals> goals;
+    private BodyInfo bodyInfo;
+    private Schedule schedule;
+    private List<String> foodLog;
+    private List<String> interests;
+    private String location;
+    private String email;
+    private String password;
+
+
+    public Schedule getSchedule() {
+        return schedule;
+    }
+
+    public void setSchedule(Schedule schedule) {
+        this.schedule = schedule;
+    }
+
+    public BodyInfo getBodyInfo() {
+        return bodyInfo;
+    }
+
+    public void setBodyInfo(BodyInfo bodyInfo) {
+        this.bodyInfo = bodyInfo;
+    }
+
+    public List<Goals> getGoals() {
+        return goals;
+    }
+
+    public void setGoals(List<Goals> goals) {
+        this.goals = goals;
+    }
 
     public List<User> getFriends() {
         return friends;
