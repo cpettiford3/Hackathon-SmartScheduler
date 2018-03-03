@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "607930685794",
+    "firebase_url": "https://hackathon-smartscheduler-f9639.firebaseio.com",
+    "project_id": "hackathon-smartscheduler-f9639",
+    "storage_bucket": "hackathon-smartscheduler-f9639.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607930685794:android:45671a645f8244be",
+        "android_client_info": {
+          "package_name": "com.example.patel.smartscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607930685794-fmqg8e5dqiumnuq0jms1se2t05q8cosb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patel.smartscheduler",
+            "certificate_hash": "9283bacb6e4c2a0327aae44e47fb8200e5b13858"
+          }
+        },
+        {
+          "client_id": "607930685794-k5kt95ug9ml09hv8k0p9c0ltufhmnaq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpUynKHCKv4--nQwFSV2RWigAnsdBzF2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607930685794-k5kt95ug9ml09hv8k0p9c0ltufhmnaq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
